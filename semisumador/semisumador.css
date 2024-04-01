@@ -1,0 +1,13 @@
+html{
+    background-color: black;
+    color: white;
+    font-size: 30px;
+}
+
+.justificar{
+  text-align: justify;
+}
+
+.inicio{
+  padding-top: 50px;
+}

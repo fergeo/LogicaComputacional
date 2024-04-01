@@ -1,0 +1,26 @@
+html{
+    background-color: black;
+    color: white;
+    font-size: 30px;
+}
+
+
+.contenedorPadre {
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.contenedorHijo .contenedorHijo1{
+    padding-left: 10px;
+    width: 100%;
+}
+
+.imagen{
+  height: 500px;
+  width: 500px;
+}
+
+.inicio{
+  padding-top: 50px;
+}

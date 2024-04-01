@@ -1,0 +1,53 @@
+html{
+    background-color: black;
+    color: white;
+    font-size: 30px;
+}
+
+
+.contenedorPadre {
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.contenedorHijo .contenedorHijo1{
+    padding-left: 10px;
+    width: 100%;
+}
+
+
+.button {
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1  .button2{
+  background-color: white; 
+  color: black; 
+  border: 2px solid #04AA6D;
+}
+
+.basenumero{
+  padding-left: 40px;
+}
+
+.espacio{
+  padding-left: 20px;
+}
+
+.inicio{
+  padding-top: 50px;
+}
+
+.base{
+  font-size: 30px;
+}

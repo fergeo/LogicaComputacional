@@ -1,0 +1,13 @@
+html{
+    background-color: black;
+    color: white;
+    font-size: 30px;
+}
+
+
+.contenedorPadre {
+    display: flex;
+    padding-top: 200px;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>Flip-Flop</title>
+        <link rel="stylesheet" href="flipflop.css">
+    </head>
+    <body>
+        <div class="contenedorPadre">
+          <h1>SEMANA 11 - Flip-Flop</h1>
+        </div> 
+
+
+        <h1>Circuito FLIP-FLOP I</h1>
+        <h2>1. ¿Qué es un flip-flop?</h2>
+        <h3>Comencemos con una definición clave</h3>
+        <p class="justificar">Un flip-flop es un circuito secuencial básico en electrónica digital que se utiliza como unidad básica de almacenamiento de información en sistemas digitales.
+          Funcionan como interruptores electrónicos que pueden cambiar su estado de salida en función de una señal de entrada, y mantienen su estado de salida anterior en ausencia de una señal de entrada.
+          En otras palabras, un flip-flop es un circuito secuencial que tiene como objetivo memorizar un dato binario.  </p>
+        <br><br>
+
+        <h2>1.1. Tipos de flip-flop</h2>
+        <p class="justificar">Existen varios tipos de flip-flops, pero los más comunes son el flip-flop SR, el flip-flop D y el flip-flop JK.</p>
+        <p class="justificar">El flip-flop SR (set-reset) es un circuito que tiene dos entradas, una entrada S (set) y una entrada R (reset) , y dos salidas, una salida Q y una salida Q complementaria. Cuando la entrada S es 1 y la entrada R es 0, la salida Q se establece en 1 y la salida Q complementaria se establece en 0. Por otro lado, cuando la entrada S es 0 y la entrada R es 1, la salida Q se establece en 0 y la salida Q complementaria se establece en 1. Cuando ambas entradas son 0, el estado anterior del flip-flop se mantiene.</p>
+        <p class="justificar">El flip-flop D (data) es un circuito que tiene una entrada D (data), una entrada de reloj y dos salidas, una salida Q y una salida Q complementaria. Cuando la señal de reloj cambia de 0 a 1, el valor de la entrada D se carga en la salida Q. Cuando la señal de reloj cambia de 1 a 0, la salida Q se mantiene en el último valor que se cargó.</p>
+        <img src="flip-flop.jpg">
+        <br><br>
+
+        <h2>FLIP-FLOP RS</h2>
+        <img class="imagen" src="flip-floprs1.jpg">
+        <img class="imagen" src="flip-floprs2.jpg">
+        <img class="imagen" src="flip-floprs3.jpg">        
+        <br><br>
+
+        <h2>FLIP-FLOP D</h2>
+        <img class="imagen" src="flip-flopd1.jpg">
+        <img class="imagen" src="flip-flopd2.jpg">
+        <img class="imagen" src="flip-flopd3.jpg">        
+        <br><br>        
+
+        <h2>FLIP-FLOP T</h2>
+        <img src="flip-flopt1.jpg">
+        <img src="flip-flopt2.jpg">
+        <img src="flip-flopt3.jpg">        
+        <br><br>
+
+        <h2>FLIP-FLOP JK</h2>
+        <img src="flip-flopjk1.jpg">
+        <img src="flip-flopjk2.jpg">
+        <img src="flip-flopjk3.jpg">        
+        <br><br>          
+
+        <h2>2. Los registros en sistemas digitales</h2>
+        <h3>Definición de registro</h3>        
+        <p class="justificar">Los registros son circuitos digitales que se utilizan para almacenar temporalmente datos en sistemas electrónicos. Los registros se utilizan en una amplia gama de aplicaciones en sistemas digitales, como la memoria temporal en procesadores, la transmisión de datos en comunicaciones digitales, la generación de señales de temporización y la implementación de lógica secuencial.</p>
+        <br><br>        
+
+        <h2>2.1. Clasificación de los registros digitales: SIPO, SISO, PISO y PIPO</h2>
+        <h3>Los registros se clasifican según su estructura de entrada y salida, y se dividen en cuatro tipos: SIPO, SISO, PISO y PIPO.</h3>        
+        <p class="justificar">Los registros SIPO, SISO, PISO y PIPO  son componentes digitales que se utilizan para almacenar y desplazar datos en sistemas electrónicos. Cada uno de estos registros tiene una función específica para la entrada y salida de los datos en diferentes forma tos, lo que los hace útiles en una variedad de aplicaciones, como la comunicación de datos, la conversión de formatos de datos, la generación de secuencias de datos, entre otros.  </p>
+        <img src="flip-flop1.jpg">
+        <br><br>                
+
+        <h2>2.2. Caracterización de cada registro</h2>
+        <h3>Características de los registros</h3>        
+        <p class="justificar">SIPO (serial-in-parallel-out): este tipo de registro tiene una entrada en serie y varias salidas en paralelo. Los datos se cargan uno a uno en el registro a través de la entrada en serie y luego se pueden leer simultáneamente en las salidas en paralelo.</p>        
+        <br>
+        <p class="justificar">SISO (serial-in-serial-out): este tipo de registro tiene una entrada en serie y una salida en serie. Los datos se cargan uno a uno en el registro a través de la entrada en serie y luego se leen uno a uno a través de la salida en serie.</p>        
+        <br>        
+        <p class="justificar">PISO (parallel-in-serial-out): este tipo de registro tiene varias entradas en paralelo y una salida en serie. Los datos se cargan simultáneamente en el registro a través de las entradas en paralelo y luego se leen uno a uno a través de la salida en serie.</p>        
+        <br>        
+        <p class="justificar">PIPO (parallel-in-parallel-out): este tipo de registro tiene varias entradas en paralelo y varias salidas en paralelo. Los datos se cargan simultáneamente en el registro a través de las entradas en paralelo y luego se pueden leer simultáneamente en las salidas en paralelo.</p>        
+        <br>        
+
+        <div class="inicio">
+          <a href="javascript:history.back()">INICIO</a><br> 
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+            crossorigin="anonymous"></script>
+        <script src="tablaverdad.js"></script>
+    </body>
+</html>

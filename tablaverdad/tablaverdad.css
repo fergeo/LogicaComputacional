@@ -1,0 +1,39 @@
+html{
+    background-color: black;
+    color: white;
+    font-size: 30px;
+}
+
+
+.contenedorPadre {
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.contenedorHijo .contenedorHijo1{
+    padding-left: 10px;
+    width: 100%;
+}
+
+
+table, th, td {
+  border:2px solid red;
+}
+
+
+#pandq td {
+    text-align: center;
+  }
+
+#porq td{
+    text-align: center;
+  }
+
+#simple{
+    text-align: left;
+}
+
+.inicio{
+  padding-top: 50px;
+}
